@@ -1,0 +1,285 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Justin Laureano
+Updated: August 2015
+Notes:	Hand coded for justinlaureano.com
+
+*/
+
+/* --------------------------------------
+   Reset
+   -------------------------------------- */
+
+ol, ul, li, nav {
+   list-style: none;
+}
+
+a, a:hover, a:focus, ul, li {
+   text-decoration: none;
+   list-style: none;
+}
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+html, body {
+   font-family:'Minion Pro', 'Droid serif', serif;
+   font: #313131;
+   line-height: 24px;
+   background: #f1f0ec;
+   margin: 0;
+   padding: 0;
+   height: 100%;
+}
+
+html, body {
+   min-height: 100%;
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+h1 {font-size: 1.6em;
+   font-family: 'Oswald';
+   font-weight: 400;
+   text-transform: uppercase;
+   padding-bottom: 15px;
+}
+h2 {font-size: 1.6em;
+   font-family: 'Oswald';
+   font-weight: 300;
+   text-transform: uppercase;
+   padding-bottom: 10px;
+   float: left;
+}
+h3 {font-size: 1.6em;
+   font-family: 'Minion Pro', serif;
+   font-weight: 700;
+   font-style: italic;
+   color: #ac5d10;
+   margin-bottom: 5px;
+}
+h4 {font-size: 1.2em;
+   font-family: 'Oswald';
+   font-weight: 300;
+   text-transform: uppercase;
+   margin-top: 0px;
+   line-height: 1;
+}
+h5 {font-size: 1.2em;
+   font-family: 'Minion Pro', serif;
+   font-style: italic;
+   margin-top: 0px;
+   text-align: right;
+}
+
+p {
+   font-size: 1.2em;
+   padding-bottom: 12px;
+   margin-bottom: 0px;
+}
+
+li {
+   font-size: 1.2em;
+}
+a {
+   color: #313131; text-decoration: none;
+}
+
+a:hover {
+   color: #ac5d10;
+}
+
+pre {
+   background-color: #f1f0ec;
+   border: none;
+   padding: 0px;
+   font-size: .7em;
+}
+
+#resume {
+   text-align: left;
+}
+
+#resumetab {
+   padding-left: 30px;
+}
+/* --------------------------------------
+   Navbar & Navigation
+   -------------------------------------- */
+ 
+.navbar {
+   background: #f1f0ec;
+   font-family: 'Oswald';
+   font-weight: 400;
+   border-radius: 0px;
+}
+
+.navbar-brand {
+   margin-top: 15px;
+}
+
+.nav.nav-tabs {
+  padding-top: 0px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+   background-color: #f1f0ec;
+   color: #ac5d10;
+   border-radius: 4px;
+}
+
+.nav-tabs>li>a, {
+   color: #313131;
+}
+
+.nav-tabs>li>a:hover, .nav-tabs>li>a:focus {
+   color: #ac5d10;
+   border-radius: 4px;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+   background-color: #f1f0ec;
+}
+.nav-tabs {
+   margin-top: 21px;
+   color: #ac5d10;
+   background: #f1f0ec;
+   border-radius: 4px 4px 0 0;
+}
+
+.nav-tabs.pull-right {
+      border-bottom: 0px;
+      margin-bottom: -1px;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:hover, .nav-tabs>li.active>a:focus {
+   background-color: #f1f0ec;
+}
+/* --------------------------------------
+  Photogrid
+   -------------------------------------- */
+
+
+li a img .img-responsive {
+   border-radius: 4px;
+}
+
+.tab-content {
+   text-align: center;
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+li img {
+   padding: 15px 0px;
+}
+
+li h2 {
+   padding: 0 0 0 15px;
+}
+
+aside {
+   text-align: center;
+}
+
+aside ul {
+   -webkit-padding-start: 0px;
+}
+/* --------------------------------------
+   Footer
+   -------------------------------------- */
+
+
+footer {
+   color: #313131;
+   background-color: #f1f0ec;
+   text-align: center;
+   line-height: 24px;
+   margin-top: 20px;
+   padding-top: 20px;
+   width: 100%;
+   bottom: 0;
+}
+
+#gallery {
+   min-height: 100%;
+}
+
+footer h4 {
+   color: #ac5d10;
+}
+
+ul.unstyled {
+   list-style: none;
+   padding: 0;
+   text-decoration: none;
+} 
+
+footer a{
+   color: #313131;
+}
+
+footer a:hover, footer a:focus {
+   text-decoration: none;
+}
+
+li span {
+   color: #ac5d10;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+   p {
+      font-size: 1em;
+   }
+
+   h1 {
+      font-size: 1.4em;
+   }
+
+	h2 {
+      font-size: 1.4em;
+   }
+
+   h3 {
+      font-size: 1.4em;
+   }
+
+   h4 {
+      font-size: 1em;
+   }
+
+   h5 {
+      text-align: left;
+   }
+
+   li {
+   font-size: 1em;
+}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+   h5 {
+      text-align: left;
+   }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}

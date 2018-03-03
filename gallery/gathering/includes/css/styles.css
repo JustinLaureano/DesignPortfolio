@@ -1,0 +1,330 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Justin Laureano
+Updated: August 2015
+Notes:	 Hand coded for findlaygathering.com
+
+*/
+
+
+/* --------------------------------------
+   Reset
+   -------------------------------------- */
+ol, ul, li, nav {
+   list-style: none;
+   -webkit-padding-start: 0px;
+}
+
+a, a:hover, a:focus, ul, li {
+   text-decoration: none;
+   list-style: none;
+}
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+html{
+   /* This image will be displayed fullscreen */
+   background:url('../../images/home_bg.jpg') no-repeat center center;
+
+   /* Ensure the html element always takes up the full height of the browser window */
+   min-height:100%;
+
+   /* The Magic */
+   background-size:cover;
+}
+
+.foodbg {
+   /* This image will be displayed fullscreen */
+   background:url('../../images/gatheringdinner.jpg') no-repeat center center;
+
+   /* Ensure the html element always takes up the full height of the browser window */
+   min-height:100%;
+
+   /* The Magic */
+   background-size:cover;
+}
+
+.winebg {
+   /* This image will be displayed fullscreen */
+   background:url('../../images/wine_bg.jpg') no-repeat center center;
+
+   /* Ensure the html element always takes up the full height of the browser window */
+   min-height:100%;
+
+   /* The Magic */
+   background-size:cover;
+}
+
+body{
+   /* Workaround for some mobile browsers */
+   min-height:100%;
+   background-color: transparent;
+   text-decoration: none;
+   list-style: none;
+   text-align: center;
+   font-family: 'Cardo', serif;
+   font-size: 14px;
+}
+
+.bodycontent {
+   margin-top: 125px;
+}
+
+
+
+#maincontent {
+   background-color: rgba(255,255,255,0.8);
+   border-radius: 3px;
+   border: 1px solid rgba(0,0,0,0.25);
+   margin-bottom: 100px;
+   padding: 20px 20px;
+
+}
+
+.row .row {
+   margin-left: auto;
+   margin-right: auto;
+}
+
+}
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: 'Cardo', serif; 
+}
+
+h1 {
+   font-family: 'Cardo', serif;
+   font-weight: 700;
+   }
+
+h2 {
+   font-family: 'Cardo', serif;
+   font-weight: 700;
+   color: #902e15;
+   font-size: 1.3em;
+}
+
+h3 {
+   font-family: 'Sarala', serif;
+   font-size: 1em;
+   font-weight: 700;
+}
+
+.liquor {
+   font-size: .9em;
+   margin: 8px;
+}
+
+h4 {
+   font-family: 'Cardo', serif;
+   font-weight: 700;
+   font-size: 1.3em;
+   margin-top: 0;
+}
+
+h5 {
+   font-family: 'Sarala', serif;
+   font-weight: 400;
+}
+
+a {
+   color: white;
+}
+
+a:hover, a:focus, a:active {
+   color: #902e15;
+}
+
+.bodycontent a {
+color: black;
+}
+
+.bodycontent a:hover {
+color: #902e15;
+}
+
+.news {
+   font-size: 1.2em;
+}
+
+li strong {
+   font-size: 1.1em;
+   color: #902e15;
+
+}ul li {
+   font-size: 1.1em;
+   color: black;
+}
+
+ul li a {
+   color: black;
+}
+
+ul li a:hover, ul li a:focus {
+   color: #902e15;
+}
+
+ 
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar {
+   background: -webkit-linear-gradient(-90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+   background: -moz-linear-gradient(-90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+   background: -o-linear-gradient(-90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+   background: -linear-gradient(-90deg, rgba(255,255,255,0.5) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0) 100%);
+}  
+
+.nav-tabs>li.active>a {
+   color: #902e15;
+}
+
+.navbar-nav>li>a {
+   color: black;
+}
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+   color: #902e15;
+}
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+   color: #902e15;
+}
+   
+.navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus {
+   background-color: transparent;
+}
+
+.navbar-toggle {
+   border-color: #902e15;
+}
+
+.navbar-toggle>.icon-bar {
+   background-color: #902e15;
+}
+   
+/* --------------------------------------
+   form
+   -------------------------------------- */
+
+.form-control {
+   font-size: 1.1em;
+}
+
+.form-control > .option {
+   margin-left: 10px;
+}
+
+.btn {
+   font-size: 1.1em;
+   background-color: rgba(0,0,0,.75);
+}
+
+.btn-default:hover {
+   color: #902e15;
+   background-color: rgba(0,0,0,.75);
+}
+
+.close {
+   opacity: .75;
+}
+
+.alert-success {
+   color: rgba(0,0,0,.75);
+}
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+.alert {
+   margin-top: 20px;
+   display: none;
+   background-color: transparent;
+   border: none;
+}
+/* --------------------------------------
+   Footer Styles
+   -------------------------------------- */
+
+.footer {
+   background-color: rgba(0,0,0,.85);
+   color: white;
+   padding-top: 40px;
+   padding-bottom: 60px;
+   line-height: 1.8em;
+   font-size: 1.1em;
+}
+
+.footer ul li {
+   font-size: 1.1em;
+   color: white;
+}
+
+.footer ul li a {
+   color: white;
+}
+
+.footer ul li a:hover, .footer ul li a:focus {
+   color: #902e15;
+}
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+   .footer {
+      padding-left: 10px;
+      padding-right: 10px;
+   }
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+   html{
+      background:url('../../images/home_bg_md.jpg') no-repeat center center;
+      min-height:100%;
+      background-size:cover;
+   }
+
+   .foodbg {
+      background:url('../../images/gatheringdinner_md.jpg') no-repeat center center;
+      min-height:100%;
+      background-size:cover;
+   }
+
+   .winebg {
+      background:url('../../images/wine_bg.jpg') no-repeat center center;
+      min-height:100%;
+      background-size:cover;
+   }
+	
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+	
+}

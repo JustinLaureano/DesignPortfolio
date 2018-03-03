@@ -1,0 +1,385 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Justin Laureano
+Updated: August 2015
+Notes:	 Hand coded for jonathanschoonover.com
+
+*/
+
+
+/* --------------------------------------
+   Reset
+   -------------------------------------- */
+ol, ul, li, nav, ul li {
+   list-style: none;
+   text-decoration: none;
+}
+
+a, a:hover, a:focus, ul, li {
+   text-decoration: none;
+   list-style: none;
+}
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+html, body {
+   background-color: #3C3C3C;
+   font-size: 16px;
+}
+
+.jumbotron {
+   border-radius: 0px;
+   background-image: url("../../images/header.jpg");
+   background-color: #3C3C3C;
+   background-repeat: no-repeat;
+   background-size: 100%;
+   margin-bottom: 0px;
+}
+
+
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+   p {
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
+   color: white;
+   }
+
+   a {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      color: white;
+   }
+
+   a:hover, a:focus, li.active a {
+      color: #FBB03B;
+   }
+
+   a p {
+      font-weight: 700;
+      color: #FBB03B;
+   }
+
+   li {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      color: white;
+   }
+
+   li a {
+      font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      color: white;
+   }
+
+
+   h1 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+   }
+
+   h3 {
+      font-family: 'Lato', sans-serif;
+      font-weight: 400;
+      font-size: 1.2em;
+      color: #FBB03B;
+      margin-top: 10px;
+   }
+
+   h4 {
+      background: -webkit-linear-gradient(white, #F2F2F2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   }
+
+   #h4_orange { /* For Safari 5.1 to 6.0 */
+     background: -webkit-linear-gradient(#FBB03B, #F79426);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   }
+
+   .jumbotron h1 {
+    font-size: 1.8em;
+    background: -webkit-linear-gradient(white, #F2F2F2);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    margin: 0;
+   }
+
+   #h1_orange {
+     background: -webkit-linear-gradient(#FBB03B, #F79426);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+   }
+
+   strong {
+    color: #FBB03B;
+   }
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+   .jumbotron {
+      font-size: 1.2em;
+      padding-bottom: 0px;
+   }
+
+   .dropdown:hover .dropdown-menu {
+   display: block;
+   }
+
+
+   a .dropdown-toggle {
+      padding: 0 15px;
+   }
+
+   #mainnav {
+      margin-top: 0px;
+   }
+
+   .nav-pills>li>a {
+      color: white;
+      background-color: transparent;
+   }
+
+   .nav-pills>li>a:hover, .nav-pills>li>a:focus {
+      color: #FBB03B;
+      background-color: transparent;
+   }
+
+   .nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+      color: #FBB03B;
+      background-color: transparent;
+   }
+
+   .nav-pills>li>a.dropdown-toggle {
+      color: white; 
+   }
+
+   .nav-pills>li>a.dropdown-toggle:hover, .nav-pills>li>a.dropdown-toggle:focus {
+      color: #FBB03B;
+      background-color: transparent;
+   }
+
+   .nav .caret {
+      border-top-color: white;
+      border-bottom-color: white;
+   }
+
+   .nav-pills>.active-dropdown>a {
+    color: #FBB03B;
+   }
+
+
+   .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 0px 0;
+    margin: 0;
+    list-style: none;
+    background-color: #3C3C3C;
+    border: 1px solid #3C3C3C;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.175);
+    background-clip: padding-box;
+}
+   
+   .dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: normal;
+    line-height: 1.428571429;
+    color: white;
+    white-space: nowrap;
+    }
+
+    .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+    color: #FBB03B;
+    background: transparent;
+    }
+
+    .dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    color: #FBB03B;
+    text-decoration: none;
+    background-color: transparent;
+    background-image: none;
+  }
+
+}
+
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+   .carousel {
+    margin-top: 0px;
+}
+
+   .carousel-caption {
+      font-size: 18px;
+      background: #3C3C3C;
+      opacity: .8;
+      border-radius: 5px;
+      bottom: 60px;
+      padding: 20px;
+      right: 20%;
+      left: 20%;
+   }
+
+  .carousel-caption h2 {
+    margin-top: 0px;
+    font-size: 1.6em;
+  }
+
+
+   #myCarousel .item { height: 400px; }
+
+   #slide1 {
+      background: url('../../../images/dumbbells_md.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('../../images/carousel_medium_02.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../../images/carousel_medium_03.jpg') top center no-repeat;
+   }
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+   hr {
+      margin: 0px;
+   }
+
+   .col-xs-4 {
+      padding: 0px;
+   }
+
+   #body {
+    margin: 20px auto;
+   }
+
+   img {
+    margin: 10px auto;
+    box-shadow: 1px 1px 2px black;
+   }
+
+   ul {
+    text-align: center;
+   }
+
+   #whytrain {
+    text-align: left;
+   }
+
+
+   /* --------------------------------------
+   Footer
+   -------------------------------------- */
+   footer {
+      margin-top: 30px;
+      text-align: center;
+   }
+
+   ul.unstyled {
+      padding: 0;
+   }
+
+   footer a p {
+    color: white;
+    font-weight: 300;
+   }
+
+   footer a:hover p, footer a:focus p {
+    color: #FBB03B;
+   }
+
+
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Large desktop */
+@media (min-width: 1200px) {
+   
+}
+
+/* portrait tablet to desktop */
+@media (max-width: 1080px) {
+
+   h4 {
+      font-size: 1em;
+   }
+   
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+   .jumbotron h1 {
+      font-size: 1.3em;
+   }
+
+   h4 {
+      font-size: .8em;
+   }
+
+   .carousel-caption {
+    font-size: 1em;
+    padding: 5px;
+    line-height: 1.2;
+   }
+
+   .carousel-caption h2 {
+    margin-top: 5px;
+    font-size: 1.2em;
+  }
+
+	
+}
+
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+   .jumbotron {
+      font-size: 1em;
+      padding: 10px;
+   }
+   
+   h4 {
+      font-size: .6em;
+   }
+
+   .carousel-caption {
+    font-size: 12px;
+    padding: 5px;
+    right: 15%;
+    left: 15%;
+   }
+}
